@@ -1,0 +1,38 @@
+body {
+    background-color: #212529;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #dfdfdf;
+}
+
+.jumbotron p {
+    margin-bottom: -20px;
+}
+
+.project,
+footer {
+    background-color: #dfdfdf;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+footer {
+    padding: 1rem;
+}
+
+@media (max-width: 992px) {
+    .jumbotron p {
+        margin-bottom: 10px;
+    }
+
+    .jumbotron svg,
+    .about svg,
+    .project,
+    .contact svg {
+        margin-bottom: -1px;
+    }
+}
